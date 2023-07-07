@@ -1,0 +1,17 @@
+const  testArr = [1, 2, 3];
+=> undefined
+
+testArr.map(function(item) {
+    return item  * 2
+});
+=> [2, 4, 6]
+
+map의 경우 원래 데이터를 가공하여 출력하는 방법 
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+testArr.filter(function(item) {
+    조건문을 작성
+    return item === 1
+    return item < 10 
+});
+
+filter는 return 조건문에 의해 필터링 되는 것

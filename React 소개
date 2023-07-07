@@ -1,0 +1,37 @@
+JavaScript library
+react를 통해 UI를 Building할 수 있음.
+
+SPA 기반의 프론트엔드 개발 프레임워크
+컴포넌트 단위의 독립적인 블록을 이용한 개발 방법
+Similar => Angular JS / Vue JS
+
+SPA의 정의 Single Page Application
+한 개의 페이지로 이루어진 애플리케이션
+ 1. 딱 한개의 페이지로 구성된 웹 앱
+ 2. 서버에 1회 리소스를 요청
+ 3. 필요할 때, 데이터만 받아와서 기존 페이지를 수정해주는 방식으로 화면을 수정
+ 4. 깜빡임이 없으므로, 자연스러운 UX를 구현
+ 5. Angular JS / Vue JS
+
+SPA의 단점 => SEO => 면접 단골 질문
+Search Engine Optimization (최적화)
+
+React => next.js을 보완
+
+ReactJS
+ 1. 페이스북이 만들고 유지보수
+ 2. 선발주자인 만큼 막강한 커뮤니티와 자료를 보유
+
+VueJS
+ 1. easy to learn, simple!
+ 2. 꾸준히 성장
+ 3. market share가 적음
+
+AngularJS
+ 1. 안정적인 프레임워크
+ 2. hard to learn, heavy함
+
+컴포넌트란?
+ = 벽돌  => 벽돌을 쌓아 집을 짓는다.
+ SPA 기반 : 컴포넌트 단위로 변경사항을 반영하므로 깜빡임 X => 렌더링
+ MPA 기반 : 하나의 반경사항을 반영하기 위해 전체 페이지 RE-load
